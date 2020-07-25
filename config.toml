@@ -2,6 +2,8 @@ baseURL = "/"
 languageCode = "cs-cz"
 title = "Jan Švábík"
 
+summaryLength = 30
+
 [params]
     siteURL = "https://jansvabik.cz"
     lang = "cs"

@@ -1,0 +1,13 @@
+{{ define "content" }}
+    <div class="c-blog-post">
+        <h1 class="c-blog-post__heading">{{ .Params.seo.title }}</h1>
+        <div class="c-blog-post__content">
+            {{ if .Content }}
+                {{ .Content }}
+            {{ else }}
+                <p><em>Mrzí mě to, ale tento článek neobsahuje žádný content. Zkuste to za chvilku, nebo, myslíte-li si, že jde o chybu, mě kontaktujte.</em>
+                </p>
+            {{ end }}
+        </div>
+    </div>    
+{{ end }}
