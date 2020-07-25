@@ -1,10 +1,11 @@
 .c-poster {
+    padding: 6rem 12.5%;
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    width: 75%;
-    margin: 0 auto;
-    height: 85vh;
+    height: 100vh;
+    background-color: #f9fcff;
+    background-image: linear-gradient(147deg, #f9fcff 0%, #dee4ea 74%);
 }
 
 .c-poster__content {
