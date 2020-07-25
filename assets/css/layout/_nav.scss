@@ -13,7 +13,6 @@
 }
 
 .o-nav__link {
-    transition: .2s;
     text-transform: uppercase;
     display: inline-block;
     color: #000;
@@ -22,6 +21,7 @@
     padding-bottom: 3px;
     border-bottom: 2px solid transparent;
     font-size: 1.1rem;
+    transition: border .2s;
     &:hover, &--active {
         border-bottom-color: #000;
     }
