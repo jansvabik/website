@@ -1,10 +1,11 @@
 ---
 seo:
-    title: Kontakt
-    description: Kontaktujte mne, budu rád
-    type: website
+  title: Kontakt
+  description: Kontaktujte mne, budu rád
+  type: website
 menu:
-    main:
-        name: Kontakt
-        weight: 4
+  main:
+    name: Kontakt
+    weight: 5
+heading: Kontaktujte mě
 ---

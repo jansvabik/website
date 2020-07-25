@@ -1,6 +1,6 @@
 {{ define "content" }}
-    <div class="c-poster">
-        <div class="c-poster__content">
+    <div class="c-poster c-poster--fullheight">
+        <div class="c-poster__content c-poster__content--part">
             <h1 class="c-poster__heading">{{ .Params.poster.heading }}</h1>
             <span class="c-poster__subheading">{{ .Params.poster.subheading }}</span>
         </div>
@@ -11,24 +11,36 @@
     <div class="c-latest-posts">
         <h2 class="c-latest-posts__heading">Mé poslední články</h2>
         <div class="c-latest-posts__list">
-            <div class="c-latest-posts__post">
-                <h3 class="c-latest-posts__post-heading"><a href="/" class="c-latest-posts__post-link">Server side rendering using Node.js and EJS.</a></h3>
-                <p class="c-latest-posts__post-preview">This is a preview of my post which I've never wrote. That's great, isn't it? Yeah, of course it is, so bye bye! It should be much longer, because of that I'm writing this sentence now. To make it longer – much longer.
-                </p>
-            </div>
-            <div class="c-latest-posts__post">
-                <h3 class="c-latest-posts__post-heading"><a href="/" class="c-latest-posts__post-link">Generating static websites using Hugo with automatic deploy to Netlify.</a></h3>
-                <p class="c-latest-posts__post-preview">This is a preview of my post which I've never wrote. That's great, isn't it? Yeah, of course it is, so bye bye! Emil taught me that. And I really appreciate it!
-                </p>
-            </div>
-            <div class="c-latest-posts__post">
-                <h3 class="c-latest-posts__post-heading"><a href="/" class="c-latest-posts__post-link">What exactly is Markdown?</a></h3>
-                <p class="c-latest-posts__post-preview">It's a file, it's a file type, it's a data file. Markdown is a lot of things. I am Markdown too and because of that I have to have really great lunch.
-                </p>
-            </div>
+            {{ $pages := where .Site.RegularPages "Type" "blog" }}
+            {{ range $pages }}
+                <div class="c-latest-posts__post">
+                    <h3 class="c-latest-posts__post-heading"><a href="{{ .Permalink }}" class="c-latest-posts__post-link">{{ .Params.seo.title }}</a></h3>
+                    <p class="c-latest-posts__post-preview">
+                        {{ if .Summary }}
+                            {{ .Summary }}
+                        {{ else }}
+                            {{ .Params.seo.description }}
+                        {{ end }}
+                    </p>
+                    {{ if .Params.seo.tags }}
+                    <div class="c-latest-posts__post-tags">
+                        {{ range .Params.seo.tags }}
+                            <span class="c-latest-posts__post-tag">{{ . }}</span>
+                        {{ end }}
+                    </div>
+                    {{ end }}
+                </div>
+            {{ end }}
+            {{ if eq (len $pages) 0 }}
+                <div class="c-latest-posts__post c-latest-posts__post--no-posts-info">
+                    <h3 class="c-latest-posts__post-heading">There are no posts in the blog.</a></h3>
+                    <p class="c-latest-posts__post-preview">Give it another try after couple of days and you'll find one maybe.
+                    </p>
+                </div>
+            {{ end }}
         </div>
         <div class="c-latest-posts__buttons">
-            <a href="/" class="u-btn u-btn--md">Visit my humble blog →</a>
+            <a href="/blog/" class="u-btn u-btn--md">Visit my humble blog →</a>
         </div>
     </div>
 {{ end }}

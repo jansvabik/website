@@ -14,6 +14,7 @@
 }
 
 .c-latest-posts__post {
+    margin-right: auto;
     text-decoration: none;
     color: #000;
     background: #fff;
@@ -21,12 +22,14 @@
     padding: 2rem;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(224, 230, 236, 0.6); transition: 0.2s linear box-shadow;
+    &--no-posts-info {
+        flex-basis: 100%;
+    }
 }
 
 .c-latest-posts__post-heading {
     display: inline;
 }
-
 
 .c-latest-posts__post-link {
     color: #000;
@@ -46,4 +49,16 @@
 .c-latest-posts__buttons {
     text-align: center;
     margin-top: 2rem;
+}
+
+.c-latest-posts__post-tags {
+    margin-top: 1rem;
+}
+
+.c-latest-posts__post-tag {
+    font-size: 0.7rem;
+    border-radius: 4px;
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
 }
