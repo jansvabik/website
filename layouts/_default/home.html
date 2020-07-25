@@ -1,0 +1,11 @@
+{{ define "content" }}
+    <div class="c-poster">
+        <div class="c-poster__content">
+            <h1 class="c-poster__heading">{{ .Params.poster.heading }}</h1>
+            <span class="c-poster__subheading">{{ .Params.poster.subheading }}</span>
+        </div>
+        <div class="c-poster__image-container">
+            <img src="{{ .Params.poster.image.url }}" alt="{{ .Params.poster.image.alt }}" class="c-poster__image">
+        </div>
+    </div>
+{{ end }}

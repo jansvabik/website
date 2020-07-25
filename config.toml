@@ -1,0 +1,9 @@
+baseURL = "/"
+languageCode = "cs-cz"
+title = "Jan Švábík"
+
+[params]
+    siteURL = "https://jansvabik.cz"
+    lang = "cs"
+    locale = "cs_CZ"
+    gatag = "UA-90630291-1"

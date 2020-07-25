@@ -1,0 +1,15 @@
+.o-footer {
+    width: 80%;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+    &::before {
+        content: '';
+        display: block;
+        width: 32px;
+        height: 6px;
+        background: #000;
+        margin: 0 auto 1rem auto;
+        border-radius: 6px;
+    }
+}
