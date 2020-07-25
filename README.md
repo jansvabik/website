@@ -1,10 +1,3 @@
-### Hi there 👋
+### My personal website
 
-Hi! I'm Jan. A backend developer who uses technologies like Node.js, MongoDB and most recently Go too. I work on several projects and I'd like to share some of them with you using this repository. I migrated from Gitlab recently.
-
-### My projects
-- 👨🏻‍💻 [jansvabik.cz](https://jansvabik.cz/) (my tiny personal website in Czech language)
-- 🌐 [noltio.com](https://noltio.com/) (my company website, we develop web apps)
-- 💃 [chciples.cz](https://chciples.cz/) (I'm in a team of people organizing balls in CZ)
-- 💰 [evide.cz](https://evide.cz/) (web app for easier money management for Czech entrepreneurs)
-- 📝 [chcikorekturu.cz](https://chcikorekturu.cz) (I do Czech text corrections)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/44a356a7-5399-4dc1-a325-d0e6a50ddda6/deploy-status)](https://app.netlify.com/sites/jansvabik/deploys)
