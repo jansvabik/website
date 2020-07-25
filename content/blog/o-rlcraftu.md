@@ -13,5 +13,4 @@ seo:
   section: Minecraft
 published: 2020-07-25T18:16:57+02:00
 modified: 2020-07-25T18:16:57+02:00
-draft: true
 ---
