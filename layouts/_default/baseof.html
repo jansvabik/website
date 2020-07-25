@@ -21,5 +21,18 @@
     <footer class="o-footer">
         &copy; {{ now.Year }} Jan Švábík
     </footer>
+    <script>
+        // element to handle with
+        var header = document.querySelector('header');
+
+        // add the listener
+        window.addEventListener('scroll', function () { 
+            if (window.scrollY >= header.offsetHeight) {
+                header.classList.add('o-header--white');
+            } else {
+                header.classList.remove('o-header--white');
+            }
+        })
+    </script>
 </body>
 </html>
