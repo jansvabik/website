@@ -4,7 +4,8 @@
 }
 
 .c-latest-posts__heading {
-    margin-bottom: 1.5rem;
+    font-size: 1.5rem;
+    margin-top: 0;
 }
 
 .c-latest-posts__list {
@@ -28,11 +29,13 @@
 }
 
 .c-latest-posts__post-heading {
+    font-size: 1.17rem;
     display: inline;
 }
 
 .c-latest-posts__post-link {
     color: #000;
+    border-bottom: 0;
     text-decoration: underline;
     &:hover {
         text-decoration: none;
@@ -44,6 +47,7 @@
     font-size: 0.9rem;
     color: #333;
     line-height: 1.45rem;
+    margin-bottom: 0;
 }
 
 .c-latest-posts__buttons {

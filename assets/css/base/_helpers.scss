@@ -1,1 +1,24 @@
 .ml-auto {margin-left: auto;}
+.u-colored {
+    border: 1px solid transparent;
+    padding: 1px 6px;
+    border-radius: 4px;
+    &--black {
+        background: #000;
+        color: #fff;
+        border-color: #000;
+    }
+    &--red {
+        background: red;
+        color: #fff;
+        border-color: red;
+    }
+    &--blue {
+        background: #00f;
+        color: #fff;
+        border-color: #00f;
+    }
+    &--white {
+        border-color: #000;
+    }
+}
