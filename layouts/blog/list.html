@@ -1,3 +1,39 @@
 {{ define "content" }}
-    List of blog posts...
+    <div class="c-poster c-poster--no-height">
+        <div class="c-poster__content">
+            <h1 class="c-poster__heading">{{ .Params.heading }}</h1>
+            <span class="c-poster__subheading"></span>
+        </div>
+    </div>
+    <div class="c-posts">
+        <div class="c-posts__list c-posts__list--stretch">
+            {{ $pages := where .Site.RegularPages "Type" "blog" }}
+            {{ range $pages }}
+                <div class="c-posts__post">
+                    <h3 class="c-posts__post-heading"><a href="{{ .Permalink }}" class="c-posts__post-link">{{ .Params.seo.title }}</a></h3>
+                    <p class="c-posts__post-preview">
+                        {{ if .Summary }}
+                            {{ .Summary }}
+                        {{ else }}
+                            {{ .Params.seo.description }}
+                        {{ end }}
+                    </p>
+                    {{ if .Params.seo.tags }}
+                        <div class="c-posts__post-tags">
+                            {{ range .Params.seo.tags }}
+                                <span class="c-posts__post-tag">{{ . }}</span>
+                            {{ end }}
+                        </div>
+                    {{ end }}
+                </div>
+            {{ end }}
+            {{ if eq (len $pages) 0 }}
+                <div class="c-posts__post c-posts__post--no-posts-info">
+                    <h3 class="c-posts__post-heading">There are no posts in the blog.</a></h3>
+                    <p class="c-posts__post-preview">Give it another try after couple of days and you'll find one maybe.
+                    </p>
+                </div>
+            {{ end }}
+        </div>
+    </div>
 {{ end }}

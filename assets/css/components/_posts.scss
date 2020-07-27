@@ -1,0 +1,41 @@
+.c-posts {
+    width: 75%;
+    margin: 0 auto;
+    padding-top: 2rem;
+}
+
+.c-posts__post {
+    width: 66%;
+    padding: 4rem 2rem;
+    border-bottom: 1px solid #eee;
+}
+
+.c-posts__post-heading {
+    margin-top: 0;
+    font-size: 1.6rem;
+}
+
+.c-posts__post-link {
+    color: #000;
+    text-decoration: underline;
+    border: 0;
+    &:hover {
+        text-decoration: none;
+    }
+}
+
+.c-posts__post-preview {
+    font-size: 1.1rem;
+}
+
+.c-posts__post-tags {
+    margin-top: 1rem;
+}
+
+.c-posts__post-tag {
+    font-size: 0.7rem;
+    border-radius: 4px;
+    background: #000;
+    color: #fff;
+    padding: 5px 10px;
+}
