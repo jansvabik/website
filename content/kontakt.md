@@ -9,3 +9,5 @@ menu:
     weight: 5
 heading: Kontaktujte mě
 ---
+
+{{< contactform >}}
