@@ -11,6 +11,7 @@
             {{ range $pages }}
                 <div class="c-posts__post">
                     <h3 class="c-posts__post-heading"><a href="{{ .Permalink }}" class="c-posts__post-link">{{ .Params.seo.title }}</a></h3>
+                    <em class="c-posts__post-metas">{{ .Params.seo.author.name }} &bull; {{ .Params.published.Format "2. 1. 2006, 15:04" }}</em>
                     <p class="c-posts__post-preview">
                         {{ if .Summary }}
                             {{ .Summary }}
