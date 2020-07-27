@@ -10,4 +10,8 @@ menu:
 heading: Kontaktujte mě
 ---
 
+## Seznámíme se?
+Není to nemožné. Prostřednictvím formuláře níže mě můžete přímo kontaktovat – z jakéhokoliv důvodu. Zadávané údaje slouží samozřejmě jen pro zaslání případné odpovědi.
+
+## Formulář
 {{< contactform >}}

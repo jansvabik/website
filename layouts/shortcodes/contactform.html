@@ -1,8 +1,13 @@
-Testovaci Netlify form
-<form name="contact" method="POST" data-netlify="true">
-    Jméno: <input type="text" name="name"><br>
-    E-mail: <input type="text" name="name"><br>
-    <textarea name="msg" rows="10"></textarea>
+<form name="Kontaktní formulář" method="POST" data-netlify="true">
+    <label for="nameInput" class="u-label">Jméno</label>
+    <input id="nameInput" type="text" name="Jméno" class="u-input" placeholder="Jan Kozel" required>
+
+    <label for="emailInput" class="u-label">E-mail</label>
+    <input id="emailInput" type="text" name="E-mail" class="u-input" placeholder="kozel@example.com" required>
+    
+    <label for="messageInput" class="u-label">Vaše zpráva</label>
+    <textarea id="messageInput" name="Zpráva" rows="10" class="u-textarea" placeholder="Napište mi sem něco pěkného..." required></textarea>
+
     <div data-netlify-recaptcha="true"></div>
-    <button type="submit">Odeslat</button>
+    <button type="submit" class="u-btn u-btn--primary">Odeslat zprávu</button>
 </form>
