@@ -53,10 +53,13 @@
 
 .c-latest-posts__post-preview {
     margin-top: 0.8rem;
-    font-size: 0.9rem;
+    font-size: 1.1rem;
     color: #333;
     line-height: 1.45rem;
     margin-bottom: 0;
+    @include lg {
+        font-size: 0.9rem;
+    }
 }
 
 .c-latest-posts__buttons {
