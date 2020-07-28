@@ -11,7 +11,7 @@ heading: Na čem jsem pracoval
 ---
 
 ## Noltio
-Noltio je firma, jejímž jsem společníkem. Celý veřejný web jsem měl na starosti já. Je postaven na Node.js a Expressu (tedy renderován serverem). V plánu je přepsání pro generátor statických stránek Hugo, který umožní nezanedbatelně rychlejší načítání stránek.
+Noltio je firma, jejíž jsem společníkem. Celý veřejný web jsem měl na starosti já. Je postaven na Node.js a Expressu (tedy renderován serverem). V plánu je přepsání pro generátor statických stránek Hugo, který umožní nezanedbatelně rychlejší načítání stránek.
 
 [Oficiální web Noltio →](https://noltio.com/)
 
