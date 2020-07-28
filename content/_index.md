@@ -7,7 +7,7 @@ poster:
   heading: Jan Švábík
   subheading: Backend developer
   image:
-    url: /images/jansvabik.jpg
+    url: /images/jansvabik-700px-optimized.jpg
     alt: Jan Švábík
 menu:
   main:
