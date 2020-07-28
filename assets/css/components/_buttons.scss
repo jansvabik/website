@@ -1,14 +1,19 @@
 .u-btn {
-    display: inline-block;
+    display: block;
+    width: 100%;
     border-radius: 14px;
     text-decoration: none;
     padding: 8px 20px;
     font-weight: 400;
     transition: 0.2s;
     color: #000;
-    margin-right: 0.6rem;
     border-color: transparent;
     cursor: pointer;
+    @include md {
+        display: inline-block;
+        margin-right: 0.6rem;
+        width: auto;
+    }
 
     &:active {
         transform: scale(0.95);

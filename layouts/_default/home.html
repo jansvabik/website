@@ -1,5 +1,5 @@
 {{ define "content" }}
-    <div class="c-poster c-poster--fullheight">
+    <div class="c-poster c-poster--home">
         <div class="c-poster__content c-poster__content--part">
             <h1 class="c-poster__heading">{{ .Params.poster.heading }}</h1>
             <span class="c-poster__subheading">{{ .Params.poster.subheading }}</span>
@@ -25,7 +25,7 @@
                     {{ if .Params.seo.tags }}
                     <div class="c-latest-posts__post-tags">
                         {{ range .Params.seo.tags }}
-                            <span class="c-latest-posts__post-tag">{{ . }}</span>
+                            <span class="u-tag">{{ . }}</span>
                         {{ end }}
                     </div>
                     {{ end }}

@@ -6,7 +6,7 @@
 }
 
 .u-input, .u-textarea {
-    width: 50%;
+    width: 100%;
     border: 1px solid #000;
     border-radius: 6px;
     font-size: 1.1rem;
@@ -14,6 +14,9 @@
     font-weight: 400;
     padding: 8px;
     margin-bottom: 1.25rem;
+    @include lg {
+        width: 50%;
+    }
 }
 
 .g-recaptcha {

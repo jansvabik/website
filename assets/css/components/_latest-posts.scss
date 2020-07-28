@@ -1,6 +1,9 @@
 .c-latest-posts {
-    width: 80%;
+    width: 90%;
     margin: -15vh auto 0 auto;
+    @include lg {
+        width: 80%;
+    }
 }
 
 .c-latest-posts__heading {
@@ -10,6 +13,7 @@
 
 .c-latest-posts__list {
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: flex-start;
 }
@@ -19,10 +23,15 @@
     text-decoration: none;
     color: #000;
     background: #fff;
-    flex-basis: 32%;
+    flex-basis: 100%;
     padding: 2rem;
+    margin-bottom: 1rem;
     border-radius: 10px;
     box-shadow: 0 3px 10px rgba(224, 230, 236, 0.6); transition: 0.2s linear box-shadow;
+    @include lg {
+        flex-basis: 32%;
+        margin-bottom: 0;
+    }
     &--no-posts-info {
         flex-basis: 100%;
     }
@@ -57,12 +66,4 @@
 
 .c-latest-posts__post-tags {
     margin-top: 1rem;
-}
-
-.c-latest-posts__post-tag {
-    font-size: 0.7rem;
-    border-radius: 4px;
-    background: #000;
-    color: #fff;
-    padding: 5px 10px;
 }

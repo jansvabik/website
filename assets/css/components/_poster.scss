@@ -1,38 +1,65 @@
 .c-poster {
-    padding: 6rem 12.5%;
+    padding: 6rem 12.5% 0 12.5%;
     display: flex;
+    flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: center;
     height: 66vh;
     background: linear-gradient(147deg, rgba(249, 252, 255, 0.97) 0%, rgba(222, 228, 234, 0.97) 74%), url('/images/city.jpg') #f9fcff center center;
     background-size: cover;
-    &--fullheight {
-        height: 100vh;
+    &--home {
+        padding: 12rem 12.5%;
+        height: auto;
+        @include lg {
+            padding: 6rem 12.5%;
+            height: 100vh;
+        }
     }
 }
 
 .c-poster__content {
     width: 100%;
+    order: 1;
+    margin-top: 1rem;
+    @include lg {
+        margin-top: 0;
+    }
     &--part {
-        flex-basis: 60%;
+        flex-basis: 100%;
+        @include lg {
+            flex-basis: 60%;;
+        }
     }
 }
 
 .c-poster__heading {
-    font-size: 5.25rem;
+    font-size: 2.25rem;
     margin-bottom: -14px;
+    text-align: center;
+    @include lg {
+        font-size: 5.25rem;
+        text-align: left;
+    }
 }
 
 .c-poster__subheading {
     font-size: 1.4rem;
+    display: block;
+    text-align: center;
     &::after {
         content: '';
-        margin-top: 3rem;
+        margin: 1rem auto 0 auto;
         border-radius: 10px;
         display: block;
         width: 64px;
         height: 6px;
         background: #000;
+        @include lg {
+            margin: 3rem 0 0 0;
+        }
+    }
+    @include lg {
+        text-align: left;
     }
 }
 
@@ -42,7 +69,12 @@
 }
 
 .c-poster__image-container {
-    flex-basis: 35%;
+    flex-basis: 60%;
+    order: -1;
+    @include lg {
+        flex-basis: 35%;
+        order: 2;
+    }
 }
 
 .c-poster__image {

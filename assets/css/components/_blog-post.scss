@@ -1,12 +1,21 @@
 .c-blog-post {
-    padding-top: 14rem;
-    width: 760px;
+    padding-top: 10rem;
+    width: 85%;
     margin: 0 auto 5rem auto;
+    @include lg {
+        width: 52.5%;
+        padding-top: 14rem;
+    }
 }
 
 .c-blog-post__heading {
-    font-size: 3.7rem;
-    line-height: 5rem;
-    margin-bottom: 5rem;
+    font-size: 1.7rem;
+    line-height: 2.7rem;
+    margin-bottom: 4rem;
+    @include lg {
+        font-size: 3.7rem;
+        line-height: 5rem;
+        margin-bottom: 5rem;
+    }
 }
 
