@@ -38,12 +38,12 @@ První verze této aplikace byla mojí [maturitní prací](https://jansvabik.cz/
 
 [Web Evide →](https://evide.cz/)
 
-## Sweet Clicker
+<!--## Sweet Clicker
 Jednoduchá client-side hra napsaná v JavaScriptu během nudných jarních středoškolskách dní. Data hráčů jsou ukládána na server pro jednoduché znovuspuštění pomocí odkazu.
 
 Existovala starší verze, což byl jeden z mých prvních projektu v JavaScriptu. I ta je stále dostupná. Můžete ji zkouknout [zde](#).
 
-[Sweet Clicker 2.0 →](#)
+[Sweet Clicker 2.0 →](#)-->
 
 ## Další projekty
 Většina projektů, na kterých jsem pracoval nebo pracuji, je vydávána pod hlavičkou naší společnosti. Pokud vás zajímají mé další práce, mrkněte na reference Noltio. Pracoval jsem na drtivé většině z nich.
