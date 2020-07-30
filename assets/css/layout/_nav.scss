@@ -1,15 +1,38 @@
 .o-nav {
-    display: flex;
-    align-items: center;
+    display: none;
+    position: absolute;
+    top: 6rem;
+    left: 0;
+    right: 0;
+    background: #fff;
+    @include lg {
+        position: initial;
+        background: none;
+        display: flex;        
+        align-items: center;
+    }
+    &--displayed {
+        display: block;
+    }
 }
 
 .o-nav__list {
     list-style-type: none;
     display: flex;
+    flex-direction: column;
+    padding: 1rem;
+    @include lg {
+        flex-direction: row;
+    }
 }
 
 .o-nav__item {
-    margin-left: 1.75rem;
+    display: inline-block;
+    margin: 0.5rem 0;
+    text-align: center;
+    @include lg {
+        margin-left: 1.75rem;
+    }
 }
 
 .o-nav__link {
