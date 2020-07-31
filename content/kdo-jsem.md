@@ -13,7 +13,7 @@ heading: Kdo jsem
 ## Jan Švábík
 Milovník {{< rawhtml >}}<span class="u-colored u-colored--black">černé</span> a <span class="u-colored u-colored--white">bílé</span>{{< /rawhtml >}} barvy (jak je patrné už z tohoto webu), Brna, Paříže a Irska, čokolády (zejména horké – pozor, nikoliv hořké), pizzy 🍕, typografie, programování, uměleckých fotografií, hudby (na té jsem přímo závislý ♪♫), sněhu ❄️, čtení i [psaní](/blog/). Přijde mi zajímavá i genetika a anorganická chemie.
 
-Napříč všemu výše uvedenému nejvíce působím v IT svéře, a to jako backend developer. Pracuji s technologiemi Node.js a MongoDB.
+Napříč všemu výše uvedenému nejvíce působím v IT sféře, a to jako backend developer. Pracuji s technologiemi Node.js a MongoDB.
 
 Zajímá-li vás spíše můj profesní životopis (byť pravděpodobně vše najdete i na tomto webu), můžete přímo přejít na [můj profil na LinkedIn](https://www.linkedin.com/in/jansvabik/).
 

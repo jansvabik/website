@@ -18,7 +18,7 @@
     <meta property="og:url" content="{{ .Site.Params.siteURL }}{{ .Permalink }}">
     <meta property="og:type" content="{{ .Params.seo.type }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
-    {{ if (eq .Params.seo.type "article" )}}
+    {{ if (eq .Params.seo.type "article") }}
         <meta property="article:author" content="{{ .Params.seo.author.url }}">
         {{ range .Params.seo.tags }}
             <meta property="article:tag" content="{{ . }}">
