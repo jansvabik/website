@@ -14,7 +14,7 @@ sections:
   label: Blog
   create: all
   match: "**/*"
-  exclude: _index.html
+  exclude: _index.md
 upload_dir: static/uploads
 public_path: "/uploads"
 front_matter_path: ''
