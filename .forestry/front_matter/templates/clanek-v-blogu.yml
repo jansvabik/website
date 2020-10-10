@@ -80,3 +80,5 @@ fields:
     time_format: 
     display_utc: false
   default: now
+pages:
+- content/blog/v-noltio-jsme-spustili-aplikaci-evide-pro-drobne-podnikatele.md
