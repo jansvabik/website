@@ -6,11 +6,11 @@ fields:
   type: field_group
   config: {}
   fields:
-  - name: nadpis_a_seo
+  - name: title
     type: text
     config:
       required: true
-    label: Nadpis a SEO
+    label: Nadpis a SEO title
     description: Název článku a title stránky
   - name: description
     type: text
