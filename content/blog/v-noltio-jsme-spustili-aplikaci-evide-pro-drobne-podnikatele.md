@@ -6,7 +6,6 @@ description = "Spustili jsme aplikaci Evide, která drobným podnikatelům zjedn
 nadpis_a_seo = "V Noltio jsme spustili aplikaci Evide pro drobné podnikatele"
 section = "Projekty"
 tags = ["podnikání", "evide", "noltio"]
-title = "V Noltio jsme spustili aplikaci Evide pro drobné podnikatele"
 type = "article"
 [seo.author]
 name = "Jan Švábík"
@@ -31,4 +30,4 @@ Nespornou výhodou Evide je komunita podnikatelů. Ta slouží jako uzavřené f
 
 Zaujala vás aplikace? Podívejte se na [oficiální web Evide](https://evide.cz/).
 
-_Tímto článkem jsem chtěl hlavně vyzkoušet propojení svého webu s headless redakčním systémem_ [_Forestry_](https://forestry.io/)_. Pokud článek je čitelný a vypadá pěkně, povedlo se. Přeji příjemné čtení dalších budoucích článků!_
+_Tímto článkem jsem chtěl hlavně vyzkoušet propojení svého webu s headless redakčním systémem_ [_Forestry_](https://forestry.io/)_. Pokud článek je čitelný a vypadá pěkně, povedlo se. Přeji příjemné čtení dalších budoucích článků!_
