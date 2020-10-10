@@ -6,6 +6,7 @@ description = "Spustili jsme aplikaci Evide, která drobným podnikatelům zjedn
 nadpis_a_seo = "V Noltio jsme spustili aplikaci Evide pro drobné podnikatele"
 section = "Projekty"
 tags = ["podnikání", "evide", "noltio"]
+title = "V Noltio jsme spustili aplikaci Evide pro drobné podnikatele"
 type = "article"
 [seo.author]
 name = "Jan Švábík"
