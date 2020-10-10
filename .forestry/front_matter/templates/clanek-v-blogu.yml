@@ -1,4 +1,82 @@
 ---
 label: Článek v blogu
 hide_body: false
-fields: []
+fields:
+- name: seo
+  type: field_group
+  config: {}
+  fields:
+  - name: nadpis_a_seo
+    type: text
+    config:
+      required: true
+    label: Nadpis a SEO
+    description: Název článku a title stránky
+  - name: description
+    type: text
+    config:
+      required: true
+      min: 120
+      max: 160
+    label: Description
+    description: SEO description pro zobrazení v SERP
+  - name: type
+    type: text
+    config:
+      required: true
+    label: OpenGraph type
+    hidden: true
+    default: article
+  - name: author
+    type: field_group
+    config: {}
+    fields:
+    - name: name
+      type: text
+      config:
+        required: true
+      label: Jméno a příjmení
+      description: Celé jméno autora
+      default: Jan Švábík
+    - name: url
+      type: text
+      config:
+        required: true
+      label: Stránka autora
+      description: URL na stránku nebo web autora
+      default: https://jansvabik.cz/
+    label: Autor článku
+    description: Informace o právoplatném autorovi článku
+  - name: section
+    type: text
+    config:
+      required: true
+    label: Kategorie
+    description: Kategorie článku
+  - name: tags
+    type: tag_list
+    default: []
+    label: Tagy
+    description: Tagy článku
+  label: SEO
+  description: Nastavení SEO a názvu článku
+- name: published
+  type: datetime
+  label: Datum publikování
+  description: Datum publikace článku
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
+- name: modified
+  type: datetime
+  label: Datum poslední úpravy
+  description: Datum poslední úpravy článku
+  config:
+    required: true
+    date_format: 
+    time_format: 
+    display_utc: false
+  default: now
