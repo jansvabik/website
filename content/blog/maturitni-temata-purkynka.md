@@ -45,9 +45,9 @@ Jinak řečeno Počítačové sítě a Technické vybavení. Slyšel jsem, že 
 * [23. Firewall – hrozby, napadení, blokové schéma FW, NAT, PAT, proxy, DMZ, tvorba pravidel pro přenosové filtry](https://jansvabik.cz/matur/postvy/23.pdf)
 * [24. Vstupní zařízení – klávesnice, myši, tablety, joysticky](https://jansvabik.cz/matur/postvy/24.pdf)
 
-## PAD Programování a databáze
+## PAD
 
-Některé z témat jsem nikdy nezpracoval. Za to se omlouvám. Pokud by se snad ještě našel někdo, kdo by měl zájem o jejich zpracování v podobném duchu, určitě se mi ozvěte a já si na to třeba ještě čas najdu. :)
+Některá z témat předmětu Programování a databáze jsem nikdy nezpracoval. Za to se omlouvám. Pokud by se snad ještě našel někdo, kdo by měl zájem o jejich zpracování v podobném duchu, určitě se mi ozvěte a já si na to třeba ještě čas najdu. :)
 
 * [1. Datové typy (statické a dynamické typování, vznik proměnné, uložení dat v paměti, práce s primitivními a neprimitivními datovými typy, generické typy)](https://jansvabik.cz/matur/pad/1.pdf)
 * [2. XML (XML, definice souboru XML, export do XML, import z XML, parsování XML, JSON)](https://jansvabik.cz/matur/pad/2.pdf)
