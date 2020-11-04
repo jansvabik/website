@@ -12,7 +12,7 @@ name = "Jan Švábík"
 url = "https://jansvabik.cz/"
 
 +++
-V tomto článku najdete odkazy na všechna maturitní témata, která jsem jako student Purkyňky zpracoval. Po přepisu tohoto webu „do [Huga](https://gohugo.io/)“ totiž už neexistuje podstránka /matur, kde se nacházelo pole pro zadání čísla tématu a předmětu.
+V tomto článku najdete odkazy na všechna maturitní témata, která jsem jako student Purkyňky zpracoval. Po přepisu tohoto webu „do [Huga](https://gohugo.io/)“ totiž už neexistuje podstránka [/matur](/matur/), kde se nacházelo pole pro zadání čísla tématu a předmětu.
 
 ## POS+TVY
 
