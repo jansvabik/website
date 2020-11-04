@@ -14,7 +14,7 @@ url = "https://jansvabik.cz/"
 +++
 V tomto článku najdete odkazy na všechna maturitní témata, která jsem jako student Purkyňky zpracoval. Po přepisu tohoto webu „do [Huga](https://gohugo.io/)“ totiž už neexistuje podstránka [/matur](/matur/), kde se nacházelo pole pro zadání čísla tématu a předmětu.
 
-Pro úplnost uvedu, že témata jsou ze školního roku 2017/2018 a je možné, že se mnohé změnilo. Mám za to, že se paní učitelka Hrušková snažila v PAD zavést výuku Node.js, C# nebo další technologie a v souvislosti s tím se mohla změnit i samotná maturitní témata.
+Pro úplnost uvedu, že témata jsou ze školního roku 2017/2018 a je možné, že se mnohé změnilo. Mám za to, že se paní učitelka Lenka Hrušková snažila v PAD zavést výuku Node.js, C# nebo další technologie a v souvislosti s tím se mohla změnit i samotná maturitní témata.
 
 ## POS+TVY
 
