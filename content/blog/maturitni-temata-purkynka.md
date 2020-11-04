@@ -5,7 +5,7 @@ published = 2020-11-04T01:00:08Z
 description = "V tomto článku najdete odkazy na všechna maturitní témata, která jsem jako student Purkyňky zpracoval. Po přepisu tohoto totiž už neexistuje podstránka /matur."
 section = "Malá výpomoc"
 tags = ["purkyňka", "maturita", "pos", "tvy", "pad"]
-title = "Maturitní témata PAD a POS+TVY pro Purkyňku"
+title = "Maturitní témata PAD a POS+TVY pro Purkyňku"
 type = "article"
 [seo.author]
 name = "Jan Švábík"
