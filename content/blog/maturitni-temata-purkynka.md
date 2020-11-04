@@ -12,11 +12,11 @@ name = "Jan Švábík"
 url = "https://jansvabik.cz/"
 
 +++
-V tomto článku najdete odkazy na všechna maturitní témata, která jsem jako student Purkyňky zpracoval. Po přepisu tohoto totiž už neexistuje podstránka /matur, kde se nacházelo pole pro zadání čísla tématu a předmětu.
+V tomto článku najdete odkazy na všechna maturitní témata, která jsem jako student Purkyňky zpracoval. Po přepisu tohoto totiž už neexistuje podstránka /matur, kde se nacházelo pole pro zadání čísla tématu a předmětu.
 
 ## POS+TVY
 
-Jinak řečeno Počítačové sítě a Technické vybavení. Slyšel jsem, že se možná některá témata změnila, nemám to ověřené přímo, ale věřím, že mnoho těchto dokumentů stále dobře poslouží. :)
+Jinak řečeno Počítačové sítě a Technické vybavení. Slyšel jsem, že se možná některá témata změnila, nemám to ověřené přímo, ale věřím, že mnoho těchto dokumentů stále dobře poslouží. :)
 
 * [1. Základní pojmy počítačových sítí; norma ISO-OSI; TCP/IP a jejich vzájemná souvislost](https://jansvabik.cz/matur/postvy/1.pdf)
 * [2. Paměti (polovodičové) – rozdělení, použití, časové diagramy, blokové schéma a jejich návaznost](https://jansvabik.cz/matur/postvy/2.pdf)
@@ -43,9 +43,9 @@ Jinak řečeno Počítačové sítě a Technické vybavení. Slyšel jsem, že s
 * [23. Firewall – hrozby, napadení, blokové schéma FW, NAT, PAT, proxy, DMZ, tvorba pravidel pro přenosové filtry](https://jansvabik.cz/matur/postvy/23.pdf)
 * [24. Vstupní zařízení – klávesnice, myši, tablety, joysticky](https://jansvabik.cz/matur/postvy/24.pdf)
 
-## PAD Programování a databáze
+## PAD Programování a databáze
 
-Některé z témat jsem nikdy nezpracoval. Za to se omlouvám. Pokud by se ještě našel někdo, kdo by měl zájem o jejich zpracování v podobném duchu, určitě se mi ozvěte a já si na to třeba ještě čas najdu. :)
+Některé z témat jsem nikdy nezpracoval. Za to se omlouvám. Pokud by se snad ještě našel někdo, kdo by měl zájem o jejich zpracování v podobném duchu, určitě se mi ozvěte a já si na to třeba ještě čas najdu. :)
 
 * [1. Datové typy (statické a dynamické typování, vznik proměnné, uložení dat v paměti, práce s primitivními a neprimitivními datovými typy, generické typy)](https://jansvabik.cz/matur/pad/1.pdf)
 * [2. XML (XML, definice souboru XML, export do XML, import z XML, parsování XML, JSON)](https://jansvabik.cz/matur/pad/2.pdf)
