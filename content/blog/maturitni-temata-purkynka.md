@@ -47,11 +47,7 @@ Jinak řečeno Počítačové sítě a Technické vybavení. Slyšel jsem, že s
 
 Některé z témat jsem nikdy nezpracoval. Za to se omlouvám. Pokud by se ještě našel někdo, kdo by měl zájem o jejich zpracování v podobném duchu, určitě se mi ozvěte a já si na to třeba ještě čas najdu. :)
 
-* [1. Datové typy (statické a dynamické typování, vznik](https://jansvabik.cz/matur/pad/1.pdf)
-
-  [proměnné, uložení dat v paměti, práce s primitivními](https://jansvabik.cz/matur/pad/1.pdf)
-
-  [a neprimitivními datovými typy, generické typy)POS+TVY Počítačové sítě a technické vybavení](https://jansvabik.cz/matur/pad/1.pdf)
+* [1. Datové typy (statické a dynamické typování, vznik proměnné, uložení dat v paměti, práce s primitivními a neprimitivními datovými typy, generické typy)](https://jansvabik.cz/matur/pad/1.pdf)
 * [2. XML (XML, definice souboru XML, export do XML, import z XML, parsování XML, JSON)](https://jansvabik.cz/matur/pad/2.pdf)
 * [3. JavaScript (skriptování na straně klienta, technologie Ajax, knihovna jQuery a její využití)](https://jansvabik.cz/matur/pad/3.pdf)
 * _4. UML diagramy a návrhové vzory (druhy a použití UML diagramů, návrhové vzory) (nezpracováno)_
