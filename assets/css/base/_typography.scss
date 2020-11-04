@@ -58,16 +58,3 @@ code {
     background: rgb(34, 34, 34);
     padding: 4px 7px;
 }
-
-ul, ol {
-    font-size: 1.1rem;
-    margin-left: 3rem;
-    margin-bottom: 2rem;
-    @include lg {
-        font-size: 1.3rem;
-    }
-
-    li {
-        margin-bottom: 1rem;
-    }
-}

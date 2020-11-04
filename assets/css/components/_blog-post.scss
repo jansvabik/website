@@ -6,6 +6,19 @@
         width: 52.5%;
         padding-top: 14rem;
     }
+
+    ul, ol {
+        font-size: 1.1rem;
+        margin-left: 3rem;
+        margin-bottom: 2rem;
+        @include lg {
+            font-size: 1.3rem;
+        }
+    
+        li {
+            margin-bottom: 1rem;
+        }
+    }
 }
 
 .c-blog-post__heading {
