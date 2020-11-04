@@ -81,5 +81,6 @@ fields:
     display_utc: false
   default: now
 pages:
+- content/blog/kde-hledat-me-odborne-clanky-blog-noltio.md
 - content/blog/maturitni-temata-purkynka.md
 - content/blog/v-noltio-jsme-spustili-aplikaci-evide-pro-drobne-podnikatele.md
