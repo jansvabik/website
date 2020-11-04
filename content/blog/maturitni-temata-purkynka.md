@@ -12,7 +12,7 @@ name = "Jan Švábík"
 url = "https://jansvabik.cz/"
 
 +++
-V tomto článku najdete odkazy na všechna maturitní témata, která jsem jako student Purkyňky zpracoval. Po přepisu tohoto totiž už neexistuje podstránka /matur, kde se nacházelo pole pro zadání čísla tématu a předmětu.
+V tomto článku najdete odkazy na všechna maturitní témata, která jsem jako student Purkyňky zpracoval. Po přepisu tohoto webu „do [Huga](https://gohugo.io/)“ totiž už neexistuje podstránka /matur, kde se nacházelo pole pro zadání čísla tématu a předmětu.
 
 ## POS+TVY
 
@@ -45,7 +45,7 @@ Jinak řečeno Počítačové sítě a Technické vybavení. Slyšel jsem, že 
 
 ## PAD Programování a databáze
 
-Některé z témat jsem nikdy nezpracoval. Za to se omlouvám. Pokud by se snad ještě našel někdo, kdo by měl zájem o jejich zpracování v podobném duchu, určitě se mi ozvěte a já si na to třeba ještě čas najdu. :)
+Některé z témat jsem nikdy nezpracoval. Za to se omlouvám. Pokud by se snad ještě našel někdo, kdo by měl zájem o jejich zpracování v podobném duchu, určitě se mi ozvěte a já si na to třeba ještě čas najdu. :)
 
 * [1. Datové typy (statické a dynamické typování, vznik proměnné, uložení dat v paměti, práce s primitivními a neprimitivními datovými typy, generické typy)](https://jansvabik.cz/matur/pad/1.pdf)
 * [2. XML (XML, definice souboru XML, export do XML, import z XML, parsování XML, JSON)](https://jansvabik.cz/matur/pad/2.pdf)
