@@ -13,7 +13,7 @@ name = "Jan Švábík"
 url = "https://jansvabik.cz/"
 
 +++
-Dnes se podíváme na atribut `autofocus` ze specifikace HTML5. Ten totiž dokáže velmi dobře vašim zákazníkům ušetřit čas a urychlí tak například objednávkový nebo registrační proces. Uživatele tak nemusí odradit, že musí vyplnit například fakturační údaje.
+Dnes se podíváme na atribut `autocomplete` ze specifikace HTML5. Ten totiž dokáže velmi dobře vašim zákazníkům ušetřit čas a urychlí tak například objednávkový nebo registrační proces. Uživatele tak nemusí odradit, že musí vyplnit například fakturační údaje.
 
 ## Krátký příběh
 
