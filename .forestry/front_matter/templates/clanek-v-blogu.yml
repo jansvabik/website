@@ -81,6 +81,7 @@ fields:
     display_utc: false
   default: now
 pages:
+- content/blog/automaticke-doplnovani-formularu-html5-autocomplete-usetrete-cas-urychlete-objednavku.md
 - content/blog/kde-hledat-me-odborne-clanky-blog-noltio.md
 - content/blog/maturitni-temata-purkynka.md
 - content/blog/v-noltio-jsme-spustili-aplikaci-evide-pro-drobne-podnikatele.md
