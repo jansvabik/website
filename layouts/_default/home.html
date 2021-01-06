@@ -11,7 +11,7 @@
     <div class="c-latest-posts">
         <h2 class="c-latest-posts__heading">Mé poslední články</h2>
         <div class="c-latest-posts__list">
-            {{ $pages := where .Site.RegularPages "Type" "blog" }}
+            {{ $pages := first 3 (where .Site.RegularPages "Type" "blog") }}
             {{ range $pages }}
                 <div class="c-latest-posts__post">
                     <h3 class="c-latest-posts__post-heading"><a href="{{ .Permalink }}" class="c-latest-posts__post-link">{{ .Params.seo.title }}</a></h3>
