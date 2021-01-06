@@ -13,4 +13,6 @@ name = "Jan Švábík"
 url = "https://jansvabik.cz/"
 
 +++
-Roky jsem se věnoval frontendu, respektive jen kódování webů a jemu velmi blízkým technologiím. Začíná však být bohužel znát, že jsem postupně přestal psát weby a přeorientoval se mnohem více pouze na backend. Když jsem se totiž od svého spolužáka ze střední školy Emila Čelustky dozvěděl o dalších hodnotách atributu `autocomplete` (kromě _on_ a _off_), měl jsem _ústa dokořán_.
+Roky jsem se věnoval frontendu, respektive jen kódování webů a jemu velmi blízkým technologiím. Začíná však být bohužel znát, že jsem postupně přestal psát weby a přeorientoval se jen na backend.
+
+Když jsem se totiž od svého spolužáka ze střední školy Emila Čelustky dozvěděl o dalších hodnotách atributu `autocomplete` (kromě _on_ a _off_), měl jsem _ústa dokořán_.
