@@ -44,17 +44,64 @@ a {
     border-bottom: 2px dashed mediumaquamarine;
 }
 
-pre {
-    padding: 1rem;
-    border-radius: 8px;
-    color: #fff;
-    background: rgb(34, 34, 34);
+ul, ol {
+    font-size: 1.1rem;
+    font-weight: 300;
     margin-bottom: 1.75rem;
+    @include lg {
+        font-size: 1.3rem;
+    }
 }
 
 code {
+    padding: 0.25rem;
+    border-radius: 4px;
+    font-family: monospace;
+    background: #eee;
+    color: #000;
+}
+
+pre {
+    border-left: 0;
+    overflow-x: scroll;
+    background: #222;
+    font-family: monospace;
+    font-size: 1.2rem;
+    line-height: 1.3rem;
     border-radius: 8px;
-    color: #fff;
-    background: rgb(34, 34, 34);
-    padding: 4px 7px;
+    padding: 1rem;
+    margin-bottom: 1.3rem;
+    @include lg {
+        margin-bottom: 1.8rem;
+    }
+
+    code {
+        background: #222;
+        color: #fff;
+    }
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 6px;
+}
+
+blockquote {
+    font-style: italic;
+    padding: 1rem 1.5rem 1rem 5rem;
+    position: relative;
+    &::before {
+        content: '„';
+        display: block;
+        position: absolute;
+        font-size: 8rem;
+        transform: scaleX(-1) translateY(-50%);
+        color: rgba($color: #ccc, $alpha: 0.5);
+        top: 0.25rem;
+        left: 0;
+    }
+    p:last-of-type {
+        margin-bottom: 0;
+    }
 }
