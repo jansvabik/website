@@ -20,7 +20,7 @@ Roky jsem se věnoval frontendu, respektive jen kódování webů a jemu velmi b
 
 Když jsem se totiž od svého spolužáka ze střední školy [Emila Čelustky](https://www.linkedin.com/in/emil-čelustka-00a698186/ "Emil Čelustka"), věrného frontendisty, dozvěděl o dalších hodnotách atributu `autocomplete` (kromě _on_ a _off_), měl jsem _ústa dokořán_.
 
-Do tohoto dne jsem měl za to, že prohlížeče doplňují uložené informace uživatelů na základě atributu `name`, jak jsem však byl poučen, takto se chová jen Google Chrome. Ostatním prohlížečům ale lze pomoci právě nastavením vhodné hodnoty do atributu `autocomplete`.
+Do tohoto dne jsem měl za to, že prohlížeče doplňují uložené informace uživatelů na základě atributu `name`, jak jsem však byl poučen, takto to není. Nějaké základní automatické doplňování v některých prohlížečích sice funguje, ale jasně stanoveného doplňování lze dosáhnout pouze nastavením vhodné hodnoty atributu `autocomplete`.
 
 ## Nastavení atributu autocomplete
 
