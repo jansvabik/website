@@ -29,10 +29,10 @@ Aby všechny moderní prohlížeče doplňovaly v prohlížeči uložené údaje
 Nyní budu pouze citovat vybrané hodnoty a text, který bude prohlížečem do pole automaticky doplněn, z [dokumentace MDN](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete), v níž je vše krásně popsané a vysvětlené. Tyto hodnoty urychlí váš objednávkový proces.
 
 * **name** – celé jméno zákazníka
-* **email** – e-mailová adresa
 * **street-address** – ulice a číslo domu
 * **address-level2** – město nebo jiná obec
 * **postal-code** – poštovní směrovací číslo
+* **email** – e-mailová adresa
 * **tel** – telefonní číslo včetně mezinárodní předvolby
 
 Potřebujete-li tyto údaje více rozpadené (například adresu rozdělit na ulici a na číslo domu), doporučuji projít si již jednou zmíněnou [MDN dokumentaci](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/autocomplete). Ta zahrnuje také další možnosti, jako jsou údaje o platební kartě, tituly, pohlaví nebo třeba narozeniny.
