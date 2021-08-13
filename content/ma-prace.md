@@ -1,7 +1,8 @@
 ---
 seo:
-  title: Má práce
-  description: Prácička
+  title: Na čem pracuji a v čem jsem zapojen
+  description: Ve své firmě Jetlio nabízím vývojářské a kodérské služby, pořádám plesy,
+    dělám korektury českých textů. A všechno, co dělám, mě nesmírně baví.
   type: website
 heading: Na čem jsem pracoval
 menu:
