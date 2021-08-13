@@ -11,11 +11,13 @@ menu:
     weight: 3
 
 ---
-## Noltio
+## Jetlio
 
-Noltio je firma, jejíž jsem společníkem. Celý veřejný web jsem měl na starosti já. ~~Je postaven na Node.js a Expressu (tedy renderován serverem).~~ Je napsán pomocí generátoru statických stránek Hugo, který umožnil nezanedbatelně rychlejší načítání stránek a snadnou správu obsahu.
+**Jetlio dává svým zákazníkům luxus vybrat si, kam investují čas, který díky aplikacím a systémům na míru ušetřili.**
 
-[Oficiální web Noltio →](https://noltio.com/)
+Vždycky jsem chtěl vlastní firmu. Svůj sen jsem si z části splnil v den svých osmnáctých narozenin založením živnosti. Po čase pak vzniklo Jetlio. Web je napsán pomocí generátoru statických stránek Hugo.
+
+[Oficiální web Jetlio →](https://jetlio.com/)
 
 ## Chci ples!
 
