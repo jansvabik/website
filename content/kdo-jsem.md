@@ -39,6 +39,6 @@ S PHP jsem se rozloučil v momentě, kdy jsem poznal engine Node.js, který umo�
 
 Dlouho jsem soukromě podnikal pod značkou Netwrop, která se měla stát obchodní společností. Nakonec jsme ale začali vyvíjet webové aplikace společně s [Lukášem Gureckým](https://noltio.com/cs/tym/lukas-gurecky/) a v lednu 2020 založili dohromady firmu.
 
-**Po roce jsme se rozdělili a založil jsem vlastní firmu Jetlio. Vyvíjíme webové aplikace na míru a kódujeme superrychle weby.**
+**Po roce jsme se rozdělili a založil jsem vlastní firmu Jetlio. Vyvíjíme webové aplikace na míru a kódujeme superrychlé weby.**
 
 Pokud vás zajímá má firma více, prohlédněte si [co všechno umíme](https://jetlio.com/cs/umime/) nebo na jakých [projektech](https://jetlio.com/cs/pripadove-studie/) jsme pracovali. Budu rád, když se v budoucnu i setkáme.
