@@ -5,7 +5,7 @@ seo:
   type: website
 poster:
   heading: Jan Švábík
-  subheading: Backend developer
+  subheading: Golang backend developer
   image:
     url: /images/jansvabik-700px-optimized.jpg
     alt: Jan Švábík
