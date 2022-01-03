@@ -1,4 +1,30 @@
 ---
 label: Treba "Hero"
 hide_body: true
-fields: []
+fields:
+- name: heading
+  type: text
+  config:
+    required: true
+  label: Nadpis
+- name: text
+  type: textarea
+  default: ''
+  config:
+    required: true
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: Text pod nadpisem
+- name: logo
+  type: file
+  config:
+    maxSize: 64
+  label: Logo/obrazek
+- name: buttons
+  type: field_group_list
+  config:
+    min: 
+    max: 2
+    labelField: 
+  label: Tlačítka
