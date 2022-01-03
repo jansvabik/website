@@ -23,6 +23,12 @@ fields:
   label: Logo/obrazek
 - name: buttons
   type: field_group_list
+  fields:
+  - name: buttons
+    type: include
+    config: {}
+    template: tlacitko
+    label: Tlačítka
   config:
     min: 
     max: 2
