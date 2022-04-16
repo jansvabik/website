@@ -23,7 +23,7 @@ Vždycky jsem chtěl vlastní firmu. Svůj sen jsem si z části splnil v den sv
 
 Už dlouho jsem měl v hlavě nápad – vytvořit aplikaci pro vedení investičního portfolia. Nebavilo mě totiž neustále přepisovat hodnoty v Excelu, chtěl jsem něco lepšího. V roce 2019 jsem s realizací začal, ale projekt Moneer nakonec vyšuměl. Až uprostřed roku 2022 jsem se rozhodl pokračovat a stvořit Portfolee.
 
-[Portfolee – your investment portfolio with current values →](https://jetlio.com/)
+[Portfolee – your investment portfolio with current values →](https://portfolee.com/?utm_source=jansvabik)
 
 ## Chci ples!
 
