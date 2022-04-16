@@ -19,6 +19,12 @@ Vždycky jsem chtěl vlastní firmu. Svůj sen jsem si z části splnil v den sv
 
 [Oficiální web Jetlio →](https://jetlio.com/)
 
+## Portfolee (Moneer)
+
+Už dlouho jsem měl v hlavě nápad – vytvořit aplikaci pro vedení investičního portfolia. Nebavilo mě totiž neustále přepisovat hodnoty v Excelu, chtěl jsem něco lepšího. V roce 2019 jsem s realizací začal, ale projekt Moneer nakonec vyšuměl. Až uprostřed roku 2022 jsem se rozhodl pokračovat a stvořit Portfolee.
+
+[Portfolee – your investment portfolio with current values →](https://jetlio.com/)
+
 ## Chci ples!
 
 Společně se dvěma dalšími spolužáky ze střední školy máme několikaleté zkušenosti s pořádáním plesů různých velikostí a o různých rozpočtech. Rozhodli jsme se proto začít službu organizace plesů nabízet komerčně. Vznikl tak projekt Chci ples!, jehož web jsem si vzal do parády.
@@ -54,6 +60,6 @@ Existovala starší verze, což byl jeden z mých prvních projektu v JavaScript
 
 ## Další projekty
 
-Většina projektů, na kterých jsem pracoval nebo pracuji, je vydávána pod hlavičkou naší společnosti. Pokud vás zajímají mé další práce, mrkněte na reference Noltio. Pracoval jsem na drtivé většině z nich.
+Většina projektů, na kterých jsem pracoval nebo pracuji, je vydávána pod hlavičkou naší společnosti. Pokud vás zajímají mé další práce, mrkněte na reference Jetlio. Na každé z nich budu mít nějaké zásluhy.
 
-[Reference Noltio →](https://noltio.com/cs/reference/)
+[Reference Jetlio →](https://jetlio.com/cs/pripadove-studie/)
