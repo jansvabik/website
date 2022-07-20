@@ -29,7 +29,7 @@ Po střední škole jsem studoval na Fakultě informačních technologií VUT v�
 
 ## Můj postup v IT
 
-Od IT se zajímám od až nevěřícně útlého věku (zužme to na první stupeň základní školy). Tehdy jsem začal tvorbou webových stránek (raději si však nepředstavujte [jak tehdy mohly vypadat](https://mujvesmir.netlify.app/), barvy {{< rawhtml >}}<span class="u-colored u-colored--red">red</span> a <span class="u-colored u-colored--blue">blue</span>{{< /rawhtml >}} bych dnes už jako pozadí webu nejspíš nepoužil). Začátky obvykle bývají holt těžké.
+Od IT se zajímám od až nevěřícně útlého věku (zužme to na první stupeň základní školy). Tehdy jsem začal tvorbou webových stránek (raději si však nepředstavujte [jak tehdy mohly vypadat](https://mujvesmir.pages.dev/), barvy {{< rawhtml >}}<span class="u-colored u-colored--red">red</span> a <span class="u-colored u-colored--blue">blue</span>{{< /rawhtml >}} bych dnes už jako pozadí webu nejspíš nepoužil). Začátky obvykle bývají holt těžké.
 
 Od HTML a špetky JavaScriptu jsem se po nějaké době teprve dostal k CSS a po dalších přibližně čtyřech letech ještě dále – k programovacímu jazyku PHP. Ten však již naštěstí nepraktikuji.
 
