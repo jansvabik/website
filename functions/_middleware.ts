@@ -1,4 +1,4 @@
-import mailChannelsPlugin, { Submission } from "@cloudflare/pages-plugin-mailchannels";
+import mailChannelsPlugin from '@cloudflare/pages-plugin-mailchannels';
 
 export const onRequest: PagesFunction = mailChannelsPlugin({
     personalizations: [
@@ -13,9 +13,10 @@ export const onRequest: PagesFunction = mailChannelsPlugin({
         name: 'Kontaktní formulář',
         email: 'jansvabik@jansvabik.cz',
     },
-    respondWith: (submission: Submission) => {
-        return new Response(
-            `${JSON.stringify(submission)}`
-        );
+    respondWith: () => {
+        return new Response(null, {
+            status: 302,
+            headers: { Location: '/dekuji/' },
+        })
     },
 });

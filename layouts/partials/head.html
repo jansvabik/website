@@ -18,6 +18,7 @@
     <meta property="og:url" content="{{ .Site.Params.siteURL }}{{ .Permalink }}">
     <meta property="og:type" content="{{ .Params.seo.type }}">
     <meta property="og:site_name" content="{{ .Site.Title }}">
+    <meta name="robots" content="{{ or .Params.seo.robots "index,follow" }}">
     {{ if (eq .Params.seo.type "article") }}
         <meta property="article:author" content="{{ .Params.seo.author.url }}">
         {{ range .Params.seo.tags }}
