@@ -1,4 +1,4 @@
-<form name="Kontaktní formulář" method="POST" data-netlify="true" data-static-form-name="contact">
+<form action="https://forms.jetl.io/submission/j390q23ugcnbmzx9q8wtux3u289ty3/" enctype="multipart/form-data" method="POST">
     <label for="nameInput" class="u-label">Jméno</label>
     <input id="nameInput" type="text" name="Jméno" class="u-input" placeholder="Jan Kozel" required>
 
@@ -8,6 +8,7 @@
     <label for="messageInput" class="u-label">Vaše zpráva</label>
     <textarea id="messageInput" name="Zpráva" rows="10" class="u-textarea" placeholder="Napište mi sem něco pěkného..." required></textarea>
 
-    <div data-netlify-recaptcha="true"></div>
+    <input type="hidden" name="_ok" value="https://jansvabik.cz/dekuji/">
+    <div class="g-recaptcha" data-sitekey="6LfoLhMUAAAAAIXmJLAoEccOa3qrIMfkrWnEaWMR"></div>
     <button type="submit" class="u-btn u-btn--primary">Odeslat zprávu</button>
 </form>
