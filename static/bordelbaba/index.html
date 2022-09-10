@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="cs">
+	<head>
+		<script async src="https://www.googletagmanager.com/gtag/js?id=UA-90630291-1"></script>
+		<script>
+			window.dataLayer = window.dataLayer || [];
+			function gtag() { dataLayer.push(arguments); }
+			gtag('js', new Date());
+
+			gtag('config', 'UA-90630291-1');
+		</script>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+		<title>Bordelbába – vím a řeknu všechno</title>
+		<meta name="description" content="Bordelbába – nemůžete se rozhodnout nebo potřebujete znát budoucnost? Jsem tu pro vás! Nově sdělím i procentuální pravděpodobnost nastání situace!">
+	    <link rel="canonical" href="//jansvabik.cz/bordelbaba2/">
+	    <meta property="og:locale" content="cs_CZ">
+	    <meta property="og:type" content="website">
+	    <meta property="og:title" content="Bordelbába – vím a řeknu všechno">
+	    <meta property="og:description" content="Bordelbába – nemůžete se rozhodnout nebo potřebujete znát budoucnost? Jsem tu pro vás! Nově sdělím i procentuální pravděpodobnost nastání situace!">
+	    <meta property="og:url" content="https://jansvabik.cz/bordelbaba2/">
+        <meta property="og:site_name" content="Bordelbába">
+        <script src="/js/jquery-3.2.1.min.js"></script>
+		<style type="text/css">
+		@import url('https://fonts.googleapis.com/css?family=Overpass:300,400,600|Pacifico&subset=latin-ext');
+		* {margin: 0; padding: 0; font-family: "Overpass", sans-serif;}
+		body {background: #d88; color: #fff; text-align: center;}
+		h1 {font-family: "Pacifico", "Overpass", sans-serif; text-align: center; font-size: 4em;}
+		div.result {text-align: center; font-size: 8em; margin: 0.2em; font-family: "Overpass", sans-serif; display: inline-block; background: #c77; border-radius: 4px; padding: 0.2em 1em 0 1em; letter-spacing: -5px;}
+		div.refresh {text-align: center; font-weight: 600; letter-spacing: -1px;}
+		a.refresh {display: inline-block; background: rgba(0,0,0,0.2); font-size: 3.2em; color: #fff; padding: 0.4em 0.6em 0.2em 0.6em; text-decoration: none; border-radius: 4px;}
+		div.menu {text-align: center;}
+		div.menu a {display: inline-block; margin: 0.6em 0.1em; font-size: 1.2em; background: rgba(0,0,0,0.2); padding: 0.6em 0.6em 0.4em 0.6em; text-decoration: none; color: #fff; border-radius: 4px;}
+		div.menu a:active, a.refresh:active {background: rgba(0,0,0,0.4);}
+
+		.androidapp {display: block; box-sizing: border-box; text-decoration: none; color: #fff; width: 40%; padding: 1em; margin: 4vh auto 5vh auto; font-size: 1.2em; letter-spacing: -.5px; border: 1px solid #fff;}
+		.androidapp span.icon {background: url('/images/bordelbaba/app.png') #fff center center no-repeat; margin-right: .5em; background-size: contain; border-radius: 15%; display: inline-block; vertical-align: middle; height: 2em; width: 2em;}
+
+		.androidapp:hover {background: #fff; color: #d88}
+
+		@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {
+			html {overflow-x: hidden;}
+
+			h1 {font-size: 2.7em; display: block; width: 100%; box-sizing: border-box;}
+			div.result {font-size: 5em; box-sizing: border-box; margin: 4%; padding: 0.2em 0 0 0; display: block; width: 92%;}
+
+			a.refresh {font-size: 2.2em;}
+
+			a {display: block; width: 100%; box-sizing: border-box; margin: 0.13em 0 0 0 !important; padding-left: 0; padding-right: 0;}
+			
+			.androidapp {margin-top: 2vh; width: auto; margin: 1em !important;}
+		}
+
+		
+		</style>
+		<!--<?php
+			if(strstr($_SERVER['HTTP_USER_AGENT'], " AppleWebKit/") && strstr($_SERVER['HTTP_USER_AGENT'], " Mobile/")) 
+				echo '<style type="text/css">@media only screen and (max-width: 800px), only screen and (max-device-width: 800px) {div.result {padding-top: 0 !important;}}</style>';
+		?>-->
+		<!--[if IE]><link rel="shortcut icon" href="/images/bordelbaba2/favicon.ico"><![endif]-->
+	    <link rel="icon" href="/images/bordelbaba2/favicon.png">
+	</head>
+	<body>
+		<a href="/bordelbaba-1.0.apk" class="androidapp"><span class="icon"></span> Bordelbába pro Android!</a>
+		<h1>I am Bordelbába.</h1>
+		<div class="result">
+            <span class="bubla">Co potřebuješ?</span>
+		</div>
+		<!--<div class="refresh">
+			<a href="#" class="type refresh">AKTUALIZOVAT</a>
+		</div>-->
+		<div class="menu">
+			<a id="anone" class="type" data-type="1" href="#">ANO NEBO NE</a>
+			<a class="type" data-type="2" href="#">Á, BÉ, CÉ</a>
+			<a class="type" data-type="3" href="#">DÉ</a>
+			<a class="type" data-type="4" href="#">1–5</a>
+			<a class="type" data-type="5" href="#">KOLIK PROCENT</a>
+			<a class="type" data-type="6" href="#">DATUM</a>
+        </div>
+        <script type="text/javascript">
+            var wait = ["Hmm...", "Přemýšlím...", "Chviličku...", "Vteřinku...", "To vypadá...", "No... Tak...", "Zapeklité...", "Momentík..."];
+
+            function generateAnswer(what) {
+                var the;
+
+                if (what == 1)
+                    the = ["Ano", "Ne"];
+                else if (what == 2)
+                    the = ["A", "B", "C"];
+                else if (what == 3)
+                    the = ["A", "B", "C", "D"];
+                else if (what == 4)
+                    the = [1, 2, 3, 4, 5];
+                else if (what == 5)
+                    the = [(Math.floor(Math.random() * (100 - 0 + 1)) + 0) + ' %'];
+                else
+                    the = ["Fakt nevím."];
+
+                return the[Math.round(Math.random() * (the.length-1))];
+
+            }
+
+            $('.type').click(function () {
+                var hajzl = $(this).data('type');
+                $('.bubla').fadeOut(function () {
+                    $('.bubla').text(wait[Math.round(Math.random() * (wait.length-1))]).fadeIn();
+                    setTimeout(() => {
+                        $('.bubla').fadeOut(function () {
+                            $('.bubla').text(generateAnswer(hajzl)).fadeIn();
+                        });
+                    }, Math.floor(Math.random() * (2000 - 500 + 1)) + 500);
+                });
+            });
+            
+            $(document).ready(function () {
+                $('#anone').trigger('click');
+            });
+        </script>
+	</body>
+</html>
