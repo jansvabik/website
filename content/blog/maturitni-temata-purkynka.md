@@ -16,6 +16,8 @@ V tomto článku najdete odkazy na všechna maturitní témata, která jsem jak
 
 Pro úplnost uvedu, že témata jsou ze školního roku 2017/2018 a je možné, že se mnohé změnilo. Mám za to, že se paní učitelka Lenka Hrušková snažila v PAD zavést výuku Node.js, C# nebo další technologie a v souvislosti s tím se mohla změnit i samotná maturitní témata.
 
+**Rozhodl jsem se, že nebudu svá zpracování maturitních témat prodávat, ale nechám je veřejně dostupná. Pokud vám ale pomohla témata tak moc, že byste mi i přesto rádi poděkovali, můžete mě pozvat na oběd příspěvkem na 1622043042/3030. 💎**
+
 ## POS+TVY
 
 Jinak řečeno Počítačové sítě a Technické vybavení. Slyšel jsem, že se možná některá témata změnila, nemám to ověřené přímo, ale věřím, že mnoho těchto dokumentů stále dobře poslouží. :)
