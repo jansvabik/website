@@ -13,9 +13,9 @@ menu:
 ---
 ## Jan Švábík
 
-Milovník {{< rawhtml >}}<span class="u-colored u-colored--black">černé</span> a <span class="u-colored u-colored--white">bílé</span>{{< /rawhtml >}} barvy (jak je patrné už z tohoto webu), Brna, Paříže a Irska, čokolády (zejména horké – pozor, nikoliv hořké), pizzy 🍕, typografie, programování, CloudCannonu, uměleckých fotografií, hudby (na té jsem přímo závislý ♪♫), sněhu ❄️, čtení i [psaní](/blog/). Přijde mi zajímavá i genetika a anorganická chemie.
+Milovník {{< rawhtml >}}<span class="u-colored u-colored--black">černé</span> a <span class="u-colored u-colored--white">bílé</span>{{< /rawhtml >}} barvy (jak je patrné už z tohoto webu), Brna, Paříže a Irska, čokolády (zejména horké – pozor, nikoliv hořké), pizzy 🍕, typografie, programování, uměleckých fotografií, hudby (na té jsem přímo závislý ♪♫), sněhu ❄️, čtení i [psaní](/blog/). Přijde mi zajímavá i genetika a anorganická chemie.
 
-Napříč všemu výše uvedenému nejvíce působím v IT sféře, a to jako backend developer. Pracuji s technologiemi Node.js a MongoDB.
+Napříč všemu výše uvedenému nejvíce působím v IT sféře, a to jako backend developer. Pracuji s technologiemi Golang, Node.js a MongoDB.
 
 Zajímá-li vás spíše můj profesní životopis (byť pravděpodobně vše najdete i na tomto webu), můžete přímo přejít na [můj profil na LinkedIn](https://www.linkedin.com/in/jansvabik/).
 
@@ -37,7 +37,7 @@ S PHP jsem se rozloučil v momentě, kdy jsem poznal engine Node.js, který umo�
 
 ## Jetlio
 
-Dlouho jsem soukromě podnikal pod značkou Netwrop, která se měla stát obchodní společností. Nakonec jsme ale začali vyvíjet webové aplikace společně s&nbsp;[Lukášem Gureckým](https://noltio.com/cs/tym/lukas-gurecky/) a v&nbsp;lednu 2020 založili dohromady firmu.
+Dlouho jsem soukromě podnikal pod značkou Netwrop, která se měla stát obchodní společností. Nakonec jsme ale začali vyvíjet webové aplikace společně s&nbsp;[Lukášem Gureckým](https://noltio.com/cs/tym/lukas-gurecky/) a v lednu 2020 založili dohromady firmu.
 
 **Po roce jsme se rozdělili a založil jsem vlastní firmu Jetlio. Vyvíjíme webové aplikace na míru a kódujeme superrychlé weby.**
 
