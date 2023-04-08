@@ -1,13 +1,13 @@
 <form action="https://forms.jetl.io/v2/submission/630e80959e02340009587604/" enctype="multipart/form-data" method="POST">
     <label for="nameInput" class="u-label">Jméno</label>
-    <input id="nameInput" type="text" name="Jméno" class="u-input" placeholder="Jan Kozel" required>
+    <input id="nameInput" type="text" name="Jméno" class="u-input" placeholder="Jan Kozel" autocomplete="name" required>
 
     <label for="emailInput" class="u-label">E-mail</label>
-    <input id="emailInput" type="email" name="E-mail" class="u-input" placeholder="kozel@example.com" required>
+    <input id="emailInput" type="email" name="E-mail" class="u-input" placeholder="kozel@example.com" autocomplete="email" required>
 
     <div class="sr-only">
         <label for="hpInput" class="u-label">Pokud jste člověk, nechte následující pole prázdné</label>
-        <input id="hpInput" type="email" name="hpEmail" class="u-input" placeholder="kozel@example.com" tabindex="-1">
+        <input id="hpInput" type="email" name="hpEmail" class="u-input" placeholder="kozel@example.com" tabindex="-1" autocomplete="off">
     </div>
     
     <label for="messageInput" class="u-label">Vaše zpráva</label>
