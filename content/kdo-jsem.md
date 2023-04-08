@@ -1,7 +1,8 @@
 ---
 seo:
   title: Kdo je Jan Švábík
-  description: Jsem backend developer, který by rád udělal ze světa lepší místo. Poznejte
+  description: >-
+    Jsem backend developer, který by rád udělal ze světa lepší místo. Poznejte
     mě víc, ať víte, kde na světě mě najdete, až mě to v Česku zase omrzí.
   type: website
 heading: Kdo jsem
@@ -9,23 +10,22 @@ menu:
   main:
     name: Kdo jsem
     weight: 2
-
 ---
 ## Jan Švábík
 
-Milovník {{< rawhtml >}}<span class="u-colored u-colored--black">černé</span> a <span class="u-colored u-colored--white">bílé</span>{{< /rawhtml >}} barvy (jak je patrné už z tohoto webu), Brna, Paříže a Irska, čokolády (zejména horké – pozor, nikoliv hořké), pizzy 🍕, typografie, programování, uměleckých fotografií, hudby (na té jsem přímo závislý ♪♫), sněhu ❄️, čtení i [psaní](/blog/). Přijde mi zajímavá i genetika a anorganická chemie.
+Milovník {{< rawhtml >}}<span class="u-colored u-colored--black">černé</span> a <span class="u-colored u-colored--white">bílé</span>{{< /rawhtml >}} barvy (jak je patrné už z tohoto webu), Brna, Paříže a Irska, čokolády (zejména horké – pozor, nikoliv hořké), pizzy 🍕, typografie, programování, uměleckých fotografií, hudby (na té jsem přímo závislý ♪♫), sněhu ❄️, čtení i [psaní](/blog/). Přijde mi zajímavá i genetika a anorganická chemie.
 
-Napříč všemu výše uvedenému nejvíce působím v IT sféře, a to jako backend developer. Pracuji s technologiemi Node.js a MongoDB.
+Napříč všemu výše uvedenému nejvíce působím v IT sféře, a to jako backend developer. Pracuji s technologiemi Golang, Node.js a MongoDB.
 
-Zajímá-li vás spíše můj profesní životopis (byť pravděpodobně vše najdete i na tomto webu), můžete přímo přejít na [můj profil na LinkedIn](https://www.linkedin.com/in/jansvabik/).
+Zajímá-li vás spíše můj profesní životopis (byť pravděpodobně vše najdete i na tomto webu), můžete přímo přejít na [můj profil na LinkedIn](https://www.linkedin.com/in/jansvabik/).
 
 ## Studium
 
 Po absolvování povinné školní docházky na ZŠ Novolíšeňské v Brně-Líšni jsem se „na průměr“ dostal na SPŠ Brno, Purkyňovu 97. Tu jsem si vybral pro studium čtyřletého oboru **Informační technologie**.
 
-Ve druhém ročníku jsem si zvolil zaměření **Programování a databáze**. Středoškolskou fázi života jsem zakončil v pátek 18. května 2018 úspěšným složením státní maturitní zkoušky z pěti předmětů.
+Ve druhém ročníku jsem si zvolil zaměření **Programování a databáze**. Středoškolskou fázi života jsem zakončil v pátek 18. května 2018 úspěšným složením státní maturitní zkoušky z pěti předmětů.
 
-Po střední škole jsem studoval na Fakultě informačních technologií VUT v Brně. Po dvou semestrech jsem ale studium ukončil, protože jsem neměl čas se více věnovat svým projektům. FIT však zůstane v mém ❤️.
+Po střední škole jsem studoval na Fakultě informačních technologií VUT v Brně. Po dvou semestrech jsem ale studium ukončil, protože jsem neměl čas se více věnovat svým projektům. FIT však zůstane v mém ❤️.
 
 ## Můj postup v IT
 
@@ -37,7 +37,7 @@ S PHP jsem se rozloučil v momentě, kdy jsem poznal engine Node.js, který umo�
 
 ## Jetlio
 
-Dlouho jsem soukromě podnikal pod značkou Netwrop, která se měla stát obchodní společností. Nakonec jsme ale začali vyvíjet webové aplikace společně s [Lukášem Gureckým](https://noltio.com/cs/tym/lukas-gurecky/) a v lednu 2020 založili dohromady firmu.
+Dlouho jsem soukromě podnikal pod značkou Netwrop, která se měla stát obchodní společností. Nakonec jsme ale začali vyvíjet webové aplikace společně s&nbsp;[Lukášem Gureckým](https://noltio.com/cs/tym/lukas-gurecky/) a v lednu 2020 založili dohromady firmu.
 
 **Po roce jsme se rozdělili a založil jsem vlastní firmu Jetlio. Vyvíjíme webové aplikace na míru a kódujeme superrychlé weby.**
 
