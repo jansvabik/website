@@ -1,4 +1,5 @@
 +++
+_schema = "clanek-v-blogu"
 modified = 2020-10-10T13:32:42Z
 published = 2020-10-10T13:32:42Z
 [seo]

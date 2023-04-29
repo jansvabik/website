@@ -1,0 +1,73 @@
+collections_config:
+  stranky:
+    name: Stránky
+    path: content
+    filter:
+      exclude:
+        - blog/_index.md
+        - >-
+          blog/automaticke-doplnovani-formularu-html5-autocomplete-usetrete-cas-urychlete-objednavku.md
+        - blog/kde-hledat-me-odborne-clanky-blog-noltio.md
+        - blog/maturitni-temata-purkynka.md
+        - blog/v-noltio-jsme-spustili-aplikaci-evide-pro-drobne-podnikatele.md
+  blog:
+    name: Blog
+    path: content/blog
+    schemas:
+      clanek-v-blogu:
+        path: .cloudcannon/schemas/clanek-v-blogu.md
+        name: Článek v blogu
+        remove_extra_inputs: false
+        hide_extra_inputs: true
+        _enabled_editors:
+          - content
+        _inputs:
+          $.seo.title:
+            label: Nadpis a SEO title
+            comment: Název článku a title stránky
+          $.seo.description:
+            comment: SEO description pro zobrazení v SERP
+          $.seo.type:
+            hidden: true
+            label: OpenGraph type
+          $.seo.author.name:
+            label: Jméno a příjmení
+            comment: Celé jméno autora
+          $.seo.author.url:
+            label: Stránka autora
+            comment: URL na stránku nebo web autora
+          $.seo.section:
+            label: Kategorie
+            comment: Kategorie článku
+          $.seo.tags:
+            type: multiselect
+            label: Tagy
+            comment: Tagy článku
+            options:
+              values: []
+              allow_create: true
+              allow_empty: true
+          $.published:
+            instance_value: NOW
+            type: datetime
+            label: Datum publikování
+            comment: Datum publikace článku
+          $.modified:
+            instance_value: NOW
+            type: datetime
+            label: Datum poslední úpravy
+            comment: Datum poslední úpravy článku
+  default_hugo_pages:
+    name: Pages
+    path: content/
+collection_groups:
+  - heading: Content
+    collections:
+      - stranky
+      - blog
+paths:
+  static: static/
+  uploads: uploads
+_inputs:
+  template:
+    hidden: true
