@@ -23,7 +23,7 @@ Vždycky jsem chtěl vlastní firmu. Svůj sen jsem si z části splnil v den sv
 
 Má online služba pro jednoduché zpracování informací z webových formulářů. Podporuje emailové a SMS notifikace a pokročilou automatickou filtraci spamu. Pomůže hlavně webovým vývojářům. Napište mi a zajistím pro vás slevu na první fakturační období – pokud vám nebude stačit předplatné zdarma.
 
-[Prozkoumat Comfyform →](https://comfyform.com/?utm_source=jansvabik.cz&amp;utm_medium=blog)
+[Prozkoumat Comfyform →](https://comfyform.com/?utm_source=jansvabik.cz&amp;utm_medium=my-work)
 
 ## Portfolee (Moneer)
 
