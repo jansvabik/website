@@ -1,7 +1,8 @@
 ---
 seo:
   title: Na čem pracuji a v čem jsem zapojen
-  description: Ve své firmě Jetlio nabízím vývojářské a kodérské služby, pořádám plesy,
+  description: >-
+    Ve své firmě Jetlio nabízím vývojářské a kodérské služby, pořádám plesy,
     dělám korektury českých textů. A všechno, co dělám, mě nesmírně baví.
   type: website
 heading: Na čem jsem pracoval
@@ -9,7 +10,6 @@ menu:
   main:
     name: Má práce
     weight: 3
-
 ---
 ## Jetlio
 
@@ -18,6 +18,12 @@ menu:
 Vždycky jsem chtěl vlastní firmu. Svůj sen jsem si z části splnil v den svých osmnáctých narozenin založením živnosti. Po čase pak vzniklo Jetlio. Web je napsán pomocí generátoru statických stránek Hugo.
 
 [Oficiální web Jetlio →](https://jetlio.com/)
+
+## Comfyform
+
+Má online služba pro jednoduché zpracování informací z webových formulářů. Podporuje emailové a SMS notifikace a pokročilou automatickou filtraci spamu. Pomůže hlavně webovým vývojářům. Napište mi a zajistím pro vás slevu na první fakturační období – pokud vám nebude stačit předplatné zdarma.
+
+[Prozkoumat Comfyform →](https://comfyform.com/?utm_source=jansvabik.cz&amp;utm_medium=blog)
 
 ## Portfolee (Moneer)
 
@@ -41,16 +47,15 @@ Protože jsem citlivý na chyby v textech, rozhodl jsem se začít nabízet jeji
 
 ## Purples
 
-Jako maturanti jsme se rozhodli uspořádat pro celou svoji střední školu maturitní ples. Od té dobý ho pořádáme pravidelně pro nové a nové maturanty. Měl jsem na svědomí web druhého ročníku – Purplesu 2019.
+Jako maturanti jsme se rozhodli uspořádat pro celou svoji střední školu maturitní ples. Od té dobý ho pořádáme pravidelně pro nové a nové maturanty. Měl jsem na svědomí web druhého ročníku – Purplesu 2019.
 
 [Web Purplesu 2019 →](https://purples.cz/2019/)
 
 ## Evide
 
-První verze této aplikace byla mojí [maturitní prací](https://jansvabik.cz/matpra.pdf) – aplikace pro vedení daňové evidence podnikatelů. V Noltiu jsme aplikaci posunuli na vyšší level. Jde o server-side renderovanou aplikaci postavenou na enginu Node.js a databázi MongoDB. Můžete si ji zdarma vyzkoušet.
+První verze této aplikace byla mojí [maturitní prací](https://jansvabik.cz/matpra.pdf) – aplikace pro vedení daňové evidence podnikatelů. V Noltiu jsme aplikaci posunuli na vyšší level. Jde o server-side renderovanou aplikaci postavenou na enginu Node.js a databázi MongoDB. Můžete si ji zdarma vyzkoušet.
 
 [Web Evide →](https://evide.cz/)
-
 <!--## Sweet Clicker
 Jednoduchá client-side hra napsaná v JavaScriptu během nudných jarních středoškolskách dní. Data hráčů jsou ukládána na server pro jednoduché znovuspuštění pomocí odkazu.
 
