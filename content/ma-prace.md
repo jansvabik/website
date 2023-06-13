@@ -25,6 +25,12 @@ Má online služba pro jednoduché zpracování informací z webových formulá�
 
 [Prozkoumat Comfyform →](https://comfyform.com/?utm_source=jansvabik.cz&amp;utm_medium=my-work)
 
+## Portfolee (Moneer)
+
+Už dlouho jsem měl v hlavě nápad – vytvořit aplikaci pro vedení investičního portfolia. Nebavilo mě totiž neustále přepisovat hodnoty v Excelu, chtěl jsem něco lepšího. V roce 2019 jsem s realizací začal, ale projekt Moneer nakonec vyšuměl. Až uprostřed roku 2022 jsem se rozhodl pokračovat a stvořit Portfolee.
+
+[Portfolee – your investment portfolio with current values →](https://portfolee.com/?utm_source=jansvabik)
+
 ## Chci ples!
 
 Společně se dvěma dalšími spolužáky ze střední školy máme několikaleté zkušenosti s pořádáním plesů různých velikostí a o různých rozpočtech. Rozhodli jsme se proto začít službu organizace plesů nabízet komerčně. Vznikl tak projekt Chci ples!, jehož web jsem si vzal do parády.
