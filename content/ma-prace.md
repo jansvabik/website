@@ -19,6 +19,12 @@ Vždycky jsem chtěl vlastní firmu. Svůj sen jsem si z části splnil v den sv
 
 [Oficiální web Jetlio →](https://jetlio.com/)
 
+## Sleva Wedos
+
+Přehledný web s aktuálními slevovými kupony a kódy na hosting Vedos (dříve Wedos) – webhosting, VPS i domény. Projekt provozuji a průběžně v něm udržuji platné kódy, aby je nikdo nemusel složitě dohledávat.
+
+[Slevawedos.cz →](https://slevawedos.cz/?utm_source=jansvabik.cz&amp;utm_medium=my-work)
+
 ## Comfyform
 
 Má online služba pro jednoduché zpracování informací z webových formulářů. Podporuje emailové a SMS notifikace a pokročilou automatickou filtraci spamu. Pomůže hlavně webovým vývojářům. Napište mi a zajistím pro vás slevu na první fakturační období – pokud vám nebude stačit předplatné zdarma.
